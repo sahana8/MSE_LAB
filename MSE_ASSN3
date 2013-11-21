@@ -1,0 +1,94 @@
+Q1> Explore the DVM instructions and prepare a summary of the same atleast for 5 instructions in a detailed format
+
+i) instruction name:
+ii) syntax
+iii)example
+
+Ans: Dalvik is the process virtual machine (VM) in Android operating system. It is the software that runs the applications on Android devices.  Programs are commonly written in java and compiled to bytecode. They are then converted from JVM -compatible .class files to Dalvik-compatible. .dex (Dalvik Executable) files before installation on a device. 
+Tha instruction format is as follows:
+
+1>instruction name- Move
+    Syntax-move destination ,source  
+    Example-move v0, v1 - Moves the content of v1 into v0. Both registers must be in the first
+                   256 register range.
+
+
+2>  Name and syntax :move-object destination ,source  
+      Example: move-object vx,vy  Moves the object reference from vy to vx.
+
+3> Name and syntax : move-result destination
+     Example: move-result vx   Move the result value of the previous method invocation into vx.
+
+4> Name and syntax: return-void
+     Example: return void  -returns without return value
+
+5> Name and syntax: monitor-enter src
+    Example  monitor-enter vx   Obtains the monitor of the object referenced by vx.
+
+6> Name and syntax: array-length arrayobj , var 
+    Example:  array-length vx , vy    Calculates the number of elements of the array referenced by vy and 
+                     puts the length value into vx.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 2> Difference between mobile and cloud computing:
+Cloud Computing	Mobile computing
+1>	mobile computing  involves a large number of computers connected through a real-time communication network such as the internet.
+2>	Cloud computing involves  the ability to run a program or application on many connected computers at the same time.
+3>	Cloud computing relies on sharing of resources to achieve coherence.
+4>	Allows us to store files on ‘cloud’ area of internet. 	1>Mobile computing  is human computer interaction by which a computer is expected to be transported during normal usage.
+2>mobile computing involves taking a computer and all necessary files and software out into the field.
+3>mobile computing uses computing capability without a pre-defined location and/or connection to a network .It  has effective portability. 
+4> Allows us to store files on ‘physical devices’ like laptop or mobile phones.
+
+
+3> Give an example of an application simulating an environment of  context aware computing and justify.
+
+Context In general the term “Context” refers to the general situation of the person, device
+or application.
+Over the years this general definition has been broadened and clarified.
+Context is any information that can be used to characterize the situation
+of an entity. An entity is a person, place, or object that is considered
+relevant to the interaction between a user and an application, including
+the user and applications themselves.
+Context-aware computing : “Context-aware computing” has been established as the practice of incorporating
+contextual information into services to allow them to react and adapt to their
+environment .
+         
+ ENVIRONMENT                    
+
+A fictitious smart home with three rooms, shown in Figure, will serve as the systems
+environment.
+
+Room1	Room2
+
+        Room3
+                                                 Simulated smart home
+
+
+It is assumed that the environment is equipped with an appropriate sensory network to
+allow to track the users location. For the purpose of the experiment this is simulated by
+projecting the whole map in a single, physical room and using a Microsoft Kinect with
+appropriate software to map the users relative coordinates within a
+simple, two dimensional coordinate space. depicts this setup.
+Only coordinates are provided to the context-awareness middleware systems to better
+emulate the output of established indoor positioning solutions.
+Two video streaming clients, “Stations”, are virtually placed within the environment.
+Physically, both are running on the same machine but report different locations and
+capabilities to the context network as shown in Table
+Stations	Location 	Computational Class
+1	Room1	3:High Quality
+2	Room 3	1:Low Quality
+. 
+                                        Demonstration stations
+
